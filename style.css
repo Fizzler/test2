@@ -143,7 +143,7 @@
 
 	
 
-     background-image: url(../img/button/btn-generate-left.png),url(../img/button/btn-generate-right.png),url(../img/button/btn-generate-center.png);
+     background-image: url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-generate-left.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-generate-right.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-generate-center.png');
     font-family: inherit!important;
     text-shadow: 0 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-size: 14px;
@@ -221,7 +221,7 @@ height:100%;
 text-shadow:0 2px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
 font-size:12px;
 line-height:1.3em;
-background:url(../img/bg.jpg) center center no-repeat fixed #000;
+background:url(https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/bg.jpg) center center no-repeat fixed #000;
 background-size:cover}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 h1,h2,h3,h4,h5,h6{
 text-shadow:0 3px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
@@ -330,7 +330,7 @@ img{width:auto;max-width:100%}
 	@-webkit-keyframes spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
 	@keyframes spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
 	.searching{width:25%;height:25%;top:37.5%;left:37.5%;
-	background-color:transparent;background-image:url(../img/searching.png);background-repeat:no-repeat;
+	background-color:transparent;background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/searching.png');background-repeat:no-repeat;
 	background-position:center center;background-size:auto 66px;-webkit-animation:searching 5s linear infinite;animation:searching 5s linear infinite}
 	.tool,.tools{position:relative}
 	@-webkit-keyframes searching{
@@ -373,9 +373,9 @@ img{width:auto;max-width:100%}
 				z-index:1}
 			.tool:before{
 				top:0;
-				background-image:url(../img/frame-top-left.png),url(../img/frame-top-right.png),url(../img/frame-top-center.png);
+				background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/frame-top-left.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/frame-top-right.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/frame-top-center.png');
 				background-position:top left,top right,top center}
-			.tool:after{bottom:0;background-image:url(../img/frame-bottom-left.png),url(../img/frame-bottom-right.png),url(../img/frame-bottom-center.png);
+			.tool:after{bottom:0;background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/frame-bottom-left.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/frame-bottom-right.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/frame-bottom-center.png');
 			background-position:bottom left,bottom right,bottom center}
 			.tool-title{padding:35px 15px 20px;position:relative;background:rgba(0,0,0,.3)}
 			.btn-info,.item:before{background-position:center center}
@@ -394,10 +394,10 @@ img{width:auto;max-width:100%}
 				.items{width:50%;padding:10px 15px 15px}
 				.items label{display:block;margin:0 0 5px}
 				.item:before{content:'';position:absolute;top:0;bottom:0;left:0;background-repeat:no-repeat;background-size:auto 100%;z-index:1}
-				.item.gems:before{background-image:url(../img/icon/gems.png)}
-				.item.gold:before{background-image:url(../img/icon/gold.png)}
-				.item.elixir:before{background-image:url(../img/icon/elixir.png)}
-				.item.dark-elixir:before{background-image:url(../img/icon/dark-elixir.png)}
+				.item.gems:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gems.png')}
+				.item.gold:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gold.png')}
+				.item.elixir:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/elixir.png')}
+				.item.dark-elixir:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/dark-elixir.png')}
 				.number{
 					text-align:left;
 					background:rgba(0,0,0,.3);
@@ -423,7 +423,7 @@ img{width:auto;max-width:100%}
 					.resources .note span{font-size:18px;vertical-align:bottom;margin:0 3px}
 					.resources .footer{position:absolute;padding-bottom:25px;left:0;right:0;bottom:0}
 					.resources .footer button{
-						background-image:url(../img/button/btn-generate-left.png),url(../img/button/btn-generate-right.png),url(../img/button/btn-generate-center.png)}
+						background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-generate-left.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-generate-right.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-generate-center.png')}
 						.progress .main-progress{height:100%;position:relative;overflow:hidden}
 						.progress .itemset,.progress .progress-label,.progress .progress-loader,.progress .search-account{
 							position:absolute;margin:0 auto;top:50%;right:0;left:0;
@@ -445,10 +445,10 @@ img{width:auto;max-width:100%}
 						}
 						.progress .amount,.progress .number{padding-left:2px;height:16px;line-height:16px}
 						.progress .item:before{width:75px;height:100%;left:0;background-position:20px center;background-size:auto 40px}
-						.progress .item.gems:before{background-image:url(../img/icon/gems-gray.png)}
-						.progress .item.gold:before{background-image:url(../img/icon/gold-gray.png)}
-						.progress .item.elixir:before{background-image:url(../img/icon/elixir-gray.png)}
-						.progress .item.dark-elixir:before{background-image:url(../img/icon/dark-elixir-gray.png)}
+						.progress .item.gems:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gems-gray.png')}
+						.progress .item.gold:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gold-gray.png')}
+						.progress .item.elixir:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/elixir-gray.png')}
+						.progress .item.dark-elixir:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/dark-elixir-gray.png')}
 						.progress .item.complete{
 							background-color:rgba(0,0,0,.3);
 						border:2px solid #3b351e;
@@ -456,10 +456,10 @@ img{width:auto;max-width:100%}
 						-moz-box-shadow:0 0 0 1px #52492f,inset 0 0 0 2px #655f45;
 						box-shadow:0 0 0 1px #52492f,inset 0 0 0 2px #655f45
 						}
-						.progress .item.gems.complete:before{background-image:url(../img/icon/gems.png)}
-						.progress .item.gold.complete:before{background-image:url(../img/icon/gold.png)}
-						.progress .item.elixir.complete:before{background-image:url(../img/icon/elixir.png)}
-						.progress .item.dark-elixir.complete:before{background-image:url(../img/icon/dark-elixir.png)}
+						.progress .item.gems.complete:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gems.png')}
+						.progress .item.gold.complete:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gold.png')}
+						.progress .item.elixir.complete:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/elixir.png')}
+						.progress .item.dark-elixir.complete:before{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/dark-elixir.png')}
 						.progress .item label{color:#fff1b9;font-family:inherit;font-weight:inherit;font-size:inherit;line-height:18px;padding-left:2px;margin:0}
 						.progress .amount{position:relative;overflow:hidden}
 						.progress .number{
@@ -508,7 +508,7 @@ img{width:auto;max-width:100%}
 						font-size:10px;
 						line-height:35px;
 						padding:0 10px;
-						background-image:url(../img/button/btn-mini-left.png),url(../img/button/btn-mini-right.png),url(../img/button/btn-mini-center.png);
+						background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-mini-left.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-mini-right.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-mini-center.png');
 						-webkit-border-radius:10px;
 						-moz-border-radius:10px;
 						border-radius:10px;
@@ -517,7 +517,7 @@ img{width:auto;max-width:100%}
 						box-shadow:0 2px 0 rgba(0,0,0,.3)
 						}
 						.btn-mini.disable{
-							background-image:url(../img/button/btn-mini-disable-left.png),url(../img/button/btn-mini-disable-right.png),url(../img/button/btn-mini-disable-center.png)
+							background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-mini-disable-left.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-mini-disable-right.png'),url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-mini-disable-center.png')
 							}
 							.btn-mini.disable:active{-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none;transform:none
 							}
@@ -525,7 +525,7 @@ img{width:auto;max-width:100%}
 								width:28px;
 								height:28px;
 								line-height:28px;padding:0;
-							background-image:url(../img/button/btn-info.png);
+							background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-info.png');
 							background-repeat:no-repeat;
 							background-size:100% 100%;
 							-webkit-border-radius:9px;-moz-border-radius:9px;
@@ -580,22 +580,22 @@ img{width:auto;max-width:100%}
 		}
 	nav .btn-menu.btn-about:after{
 		top:10px;
-		background-image:url(../img/button/menu-about.png);
+		background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/menu-about.png');
 		background-size:auto 38px
 		}
 	nav .btn-menu.btn-instructions:after{
-		background-image:url(../img/button/menu-instruction.png)
+		background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/menu-instruction.png')
 		}
 	nav .btn-menu.btn-players:after{
 		top:8px;
-		background-image:url(../img/button/menu-player.png);
+		background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/menu-player.png');
 		background-size:auto 40px
 		}
 	nav .btn-menu.btn-faq:after{
-		background-image:url(../img/button/menu-faq.png)
+		background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/menu-faq.png')
 		}
 	nav .btn-menu.btn-comments:after{
-		background-image:url(../img/button/menu-comment.png)
+		background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/menu-comment.png')
 		}
 	nav .btn-menu span{
 		position:absolute;
@@ -752,14 +752,14 @@ img{width:auto;max-width:100%}
 				width:40px;
 				height:40px;
 				right:0;
-				background-image:url(../img/button/btn-dialog-close.png);
+				background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-dialog-close.png');
 				background-position:top right
 				}
 			.ui-dialog .ui-dialog-titlebar-back{
 				width:76px;
 				height:40px;
 				left:0;
-				background-image:url(../img/button/btn-dialog-back.png);
+				background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/button/btn-dialog-back.png');
 				background-position:top left
 				}
 			.ui-dialog .ui-dialog-content{
@@ -1004,7 +1004,7 @@ max-width:95%
 	-moz-border-radius:6px;border-radius:6px
 	}
 .dialog-verify{
-        background:url(../img/bg-bg.jpg) center center fixed #000;
+        background:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/bg-bg.jpg') center center fixed #000;
          background-size:cover
         background-repeat: no-repeat;
 	width:100%;height:100%;
@@ -1068,7 +1068,7 @@ max-width:95%
 .dialog-verify .locker-note{color:inherit!important;margin-bottom:0}
 .dialog-about{padding:10px 10px 10px 110px}
 .dialog-about:before{content:'';width:80px;height:95px;position:absolute;top:15px;left:15px;
-background:url(../img/villager.png) center center no-repeat;
+background:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/villager.png') center center no-repeat;
 background-size:auto 100%
 }
 .dialog-instructions .step{
@@ -1109,7 +1109,7 @@ border-radius:6px
 	padding:5px 8px 5px 120px;
 	position:relative;
 	overflow:hidden;
-	background:url(../img/players-header.png) center center no-repeat #a89f91;
+	background:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/players-header.png') center center no-repeat #a89f91;
 	background-size:cover;
 	border-style:solid;
 	border-color:#a0998c;
@@ -1128,7 +1128,7 @@ border-radius:6px
 	height:110px;
 	position:absolute;
 	top:5px;left:5px;
-	background:url(../img/icon/badge.png) center center no-repeat;
+	background:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/badge.png') center center no-repeat;
 	background-size:100% auto
 	}
 .dialog-players h6{
@@ -1189,7 +1189,7 @@ border-radius:6px
 .dialog-players .player{
 	float:left;height:34px;color:#fff;text-shadow:0 2px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
 	font-weight:400;font-size:10px;line-height:18px;padding-top:2px;padding-left:38px;position:relative;
-	background-image:url(../img/icon/player.png);
+	background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/player.png');
 	background-size:30px 30px
 	}
 .dialog-players .cn,.dialog-players .player.cn{font-size:12px}
@@ -1239,10 +1239,10 @@ border-right:1px solid #ecece6
 	background-size:10px 10px;z-index:1
 	}
 .dialog-players .ttl-received.gold span{
-	background-image:url(../img/icon/gold.png)
+	background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gold.png')
 	}
-	.dialog-players .ttl-received.elixir span{background-image:url(../img/icon/elixir.png)}
-	.dialog-players .ttl-received.dark-elixir span{background-image:url(../img/icon/dark-elixir.png)}
+	.dialog-players .ttl-received.elixir span{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/elixir.png')}
+	.dialog-players .ttl-received.dark-elixir span{background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/dark-elixir.png')}
 	.dialog-players .ttl-received.gems{
 		width:auto;padding:4px 0 4px 10px;
 		margin-left:5px
@@ -1279,7 +1279,7 @@ border-right:1px solid #ecece6
 	top:2px;
 	right:0;bottom:0;left:0;
 	background-color:transparent;
-	background-image:url(../img/icon/gems.png);
+	background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gems.png');
 	background-repeat:no-repeat;
 	background-position:center right;
 	background-size:auto 100%;
@@ -1362,7 +1362,7 @@ margin:0 0 10px;
 font-size:12px;
 line-height:17px;
 padding-left:35px;
-background:url(../img/icon/player.png) top left no-repeat;
+background:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/player.png') top left no-repeat;
 background-size:30px 30px
 }
 .cx-body h5:before,.cx-body h6:before{
@@ -1524,7 +1524,7 @@ transform:translate(0,-50%)
 		text-shadow:none;
 		line-height:17px;
 		padding:0 0 0 13px;
-		background-image:url(../img/icon/gems.png);
+		background-image:url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/icon/gems.png');
 		background-repeat:no-repeat;
 		background-position:center left;
 		background-size:11px 11px;
@@ -1661,7 +1661,7 @@ transform:translate(0,-50%)
     src: url(back-beat.eot?#iefix) format('embedded-opentype'), url(back-beat.woff2) format("woff2"), url(back-beat.woff) format('woff'), url(back-beat.ttf) format('truetype'), url(back-beat.svg#CCBackBeat-Light) format('svg')
 }
 .dotted-pattern {
-  background-image: url('../img/dotted-bg-overlay.png');
+  background-image: url('https://cdn.jsdelivr.net/gh/Fizzler/Test2@latest3/img/dotted-bg-overlay.png');
   background-repeat: repeat;
   height: 100%;
   width: 100%;
